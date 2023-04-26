@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background: inherit;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body {
+    background: var(--primary-bg);
+}
+
+#app {
+    width: 375px;
+    background: var(--primary-bg);
+    color: var(--secondary-text-color);
+    overflow-x: hidden;
+}
+
+.logo {
+    font-family: var(--ff-inter);
+    text-transform: uppercase;
+}
+
+.nav-list__row, .nav-list {
+    visibility: hidden;
+}
+
+.nav-list {
+    width: 296px;
+    height: 0;
+    position: absolute;
+    top: 60px;
+    left: calc(50% - 148.5px);
+}
+
+.nav-list__row {
+    padding-top: calc(var(--padding-xs) / 2);
+    font-size: var(--fs-xxs);
+    width: 150px;
+}
+
+.logo {
+    font-size: var(--fs-s);
+}
+
+.read-more__tittle {
+    padding-right: var(--padding-xs);
+    margin-left: calc(var(--margin-xxxl) + 1000px + 7px);
+}
+
+.play__img {
+    width: 20px;
+    height: 20px;
+}   
+    
+.prewiev, .more:hover {
+    color: var(--primary-text-color);
+}
+
+.prewiev__container {
+    padding: calc(var(--padding-l) + 1px) var(--padding-l) calc(var(--padding-xs) - 6px) calc(var(--padding-m) + 9px);
+}
+
+.line {
+    background: var(--primary-text-color);
+    width: 18px;
+    height: 2px;
+    border-radius: 1px;
+    margin: var(--margin-xxs);
+}
+
+.prewiev {
+    background: url(../images/backgrounds/background-1.png);
+    background-position: 60%;
+    background-size: 1026px;
+    height: 476px;
+}
+
+.prewiev__tittle {
+    font-family: var(--ff-kaisei);
+    font-size: calc(var(--fs-l) - 2px);
+}
+
+.prewiev__player {
+    background: url(../images/backgrounds/background-2.png);
+    background-size: 416px;
+    background-position: left;
+    height: 165px;
+}
+
+.play__img {
+    position: relative;
+    top: 3px;
+    left: 0.5px;
+}
+
+.banner__img {
+    width: 296px;
+    height: 130px;
+}
+
+.max-w-paragraph {
+    display: none;
+}
+
+.more {
+    color: var(--third-text-color);
+}
+
+.directions-container {
+    padding-bottom: var(--padding-l);
+}
+
+.row {
+    width: 30px;
+}
+
+.directions-player__bg {
+    background-size: cover;
+    width: 296px;
+    height: 92px;
+}
